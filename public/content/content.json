@@ -1,0 +1,115 @@
+{
+  "siteTitle": "Bertram Medd",
+  "siteSubtitle": "Assistant Producer & Filmmaker",
+  "youngWildersUrl": "https://player.vimeo.com/video/1070776371",
+  "highlighted": [
+    {
+      "id": "highlight-1",
+      "title": "Young Wilders",
+      "type": "video",
+      "thumbnail": "/content/gallery/001 (Jimbo fishing)-thumb.jpg",
+      "videoUrl": "https://vimeo.com/1070776371",
+      "description": "Youngwilders tells the story of a non-profit organisation of the same name, founded to encourage young people to engage in nature restoration. By working with landowners and partner organisations, Youngwilders facilitates small-scale, youth-led nature recovery projects across the UK.\n\nThis film was shot on Maple Farm, one of Youngwilders' first project sites, on the Surrey-Sussex border. Filmed in the middle of winter, it explores how and why Youngwilders came into being, and how the work the team is doing at Maple Farm is benefiting wildlife, supporting biodiversity, and helping young people build a deeper connection to our natural world."
+    },
+    {
+      "id": "highlight-2",
+      "title": "Documentary Showreel",
+      "type": "video",
+      "thumbnail": "/content/gallery/Bertram Medd Showreel 2025-thumb.jpg",
+      "videoUrl": "/content/gallery/Bertram Medd Showreel 2025.mp4",
+      "description": "This showreel features my work as an Assistant Producer across science, natural history, archaeology, and specialist factual programming, including projects for the BBC, National Geographic, Discovery and other major broadcasters."
+    }
+  ],
+  "gallery": [
+    {
+      "id": "gallery-1",
+      "title": "Endlseigh",
+      "type": "video",
+      "thumbnail": "/content/gallery/Endlseigh final v2-thumb.jpg",
+      "videoUrl": "/content/gallery/Endlseigh final v2.mp4",
+      "description": ""
+    },
+    {
+      "id": "gallery-3",
+      "title": "Crypto Confidential",
+      "type": "video",
+      "thumbnail": "/content/gallery/Crypto Confidential 12.02.25-thumb.jpg",
+      "videoUrl": "/content/gallery/Crypto Confidential 12.02.25.mp4",
+      "description": ""
+    }
+  ],
+  "cv": {
+    "droneShots": [
+      "/content/gallery/001 (Jimbo fishing).mov",
+      "/content/gallery/002 (Misty landscape).mov",
+      "/content/gallery/003 (Misty, fisherman appears).mov",
+      "/content/gallery/007 (boat).mov"
+    ],
+    "bio": "I'm an Assistant Producer with a science background, working across factual documentaries covering climate change, astrophysics, natural history, archaeology, and other specialist factual programming for major broadcasters. I've worked across productions from development to delivery, with extensive experience filming abroad in remote locations, often in challenging and hostile environments.\n\nAlongside broadcast work, I also create short-form branded and charity content, including films for organisations such as Young Wilders, as well as promotional and social media videos.",
+    "experience": [
+      {
+        "title": "Endlseigh Insurance Commercial",
+        "year": "2024",
+        "role": "Director of Photography",
+        "description": "DOP for national insurance commercial campaign"
+      },
+      {
+        "title": "Britain's Parking Hell",
+        "year": "2024",
+        "role": "Assistant Producer",
+        "description": "Channel 5 - Factual entertainment series"
+      },
+      {
+        "title": "The Lakes",
+        "year": "2024",
+        "role": "Assistant Producer & Researcher",
+        "description": "BBC - Documentary series about life in the Lake District"
+      },
+      {
+        "title": "Paranormal Rescue",
+        "year": "2024",
+        "role": "Researcher",
+        "description": "Discovery+ - Paranormal documentary series for US market"
+      },
+      {
+        "title": "Yorkshire: A Year in the Wild",
+        "year": "2023-2024",
+        "role": "Runner/Assistant Producer",
+        "description": "Channel 5 - Wildlife documentary series"
+      },
+      {
+        "title": "The Great House Giveaway",
+        "year": "2023",
+        "role": "Researcher",
+        "description": "Channel 4 - Property development entertainment format"
+      },
+      {
+        "title": "Coastal Walks with My Dog",
+        "year": "2022",
+        "role": "Researcher",
+        "description": "Channel 5 - Travel and lifestyle documentary series"
+      }
+    ],
+    "skills": [
+      "Story Development",
+      "Contributor Management",
+      "Research & Development",
+      "Production Coordination",
+      "Cinematography",
+      "Camera Operation",
+      "Post-Production",
+      "Adobe Premiere Pro",
+      "DaVinci Resolve",
+      "Full UK Driving License"
+    ],
+    "awards": []
+  },
+  "contact": {
+    "email": "bertram.medd1@gmail.com",
+    "phone": "07495141244",
+    "location": "London, UK",
+    "vimeo": "https://vimeo.com/bertrammedd",
+    "instagram": "https://instagram.com/bertrammedd",
+    "linkedin": "https://www.linkedin.com/in/bertram-medd-b41746298/"
+  }
+}

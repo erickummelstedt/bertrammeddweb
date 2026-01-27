@@ -1,0 +1,159 @@
+.photo-gallery-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.95);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  animation: fadeIn 0.3s ease;
+}
+
+.photo-gallery-container {
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.photo-display {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.photo-display img {
+  max-width: 100%;
+  max-height: 65vh;
+  object-fit: contain;
+  border-radius: 2px;
+}
+
+.nav-button {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: #fff;
+  font-size: 3rem;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s;
+  border-radius: 50%;
+}
+
+.nav-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.nav-button.prev {
+  left: 1rem;
+}
+
+.nav-button.next {
+  right: 1rem;
+}
+
+.photo-info {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.photo-info h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.02em;
+}
+
+.photo-counter {
+  font-size: 0.9rem;
+  color: #999;
+  margin-bottom: 0.5rem;
+}
+
+.photo-info p {
+  font-size: 1rem;
+  color: #999;
+  line-height: 1.6;
+}
+
+.thumbnail-strip {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  padding: 0.5rem 0;
+  justify-content: center;
+}
+
+.thumbnail-strip img {
+  width: 80px;
+  height: 60px;
+  object-fit: cover;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.2s;
+  border-radius: 2px;
+}
+
+.thumbnail-strip img:hover {
+  opacity: 0.8;
+}
+
+.thumbnail-strip img.active {
+  opacity: 1;
+  outline: 2px solid #fff;
+}
+
+@media (max-width: 768px) {
+  .photo-gallery-overlay {
+    padding: 1rem;
+  }
+
+  .photo-display img {
+    max-height: 50vh;
+  }
+
+  .nav-button {
+    font-size: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .nav-button.prev {
+    left: 0.5rem;
+  }
+
+  .nav-button.next {
+    right: 0.5rem;
+  }
+
+  .photo-info h3 {
+    font-size: 1.2rem;
+  }
+
+  .photo-info p {
+    font-size: 0.9rem;
+  }
+
+  .thumbnail-strip {
+    gap: 0.3rem;
+  }
+
+  .thumbnail-strip img {
+    width: 60px;
+    height: 45px;
+  }
+}
