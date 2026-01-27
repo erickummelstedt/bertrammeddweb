@@ -30,3 +30,6 @@ public/content/gallery/*.avi
 public/content/gallery/*.webm
 public/content/gallery/*-thumb.jpg
 public/content/gallery/*-thumb.png
+
+# Allow compressed videos (small enough for git)
+!public/content/gallery/compressed/*.mp4

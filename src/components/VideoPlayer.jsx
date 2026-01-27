@@ -2,12 +2,12 @@ import { useState, useRef } from 'react';
 import './VideoPlayer.css';
 
 function getEmbedUrl(url) {
-  // Vimeo
+  // Vimeo - with all branding removed
   const vimeoMatch = url.match(/vimeo\.com\/(\d+)/);
   if (vimeoMatch) {
     return {
       type: 'vimeo',
-      embedUrl: `https://player.vimeo.com/video/${vimeoMatch[1]}?title=0&byline=0&portrait=0`
+      embedUrl: `https://player.vimeo.com/video/${vimeoMatch[1]}?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479`
     };
   }
   

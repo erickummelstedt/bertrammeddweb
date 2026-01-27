@@ -21,7 +21,7 @@ export default function Home({ content }) {
         <div className="hero-video-container">
           <div className="video-embed-wrapper">
             <iframe
-              src={`${content.youngWildersUrl}?autoplay=1&loop=0&autopause=0`}
+              src={`${content.youngWildersUrl}?autoplay=1&loop=0&autopause=0&title=0&byline=0&portrait=0&badge=0`}
               frameBorder="0"
               allow="autoplay; fullscreen; picture-in-picture"
               allowFullScreen
