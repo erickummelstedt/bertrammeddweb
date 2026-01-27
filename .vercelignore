@@ -1,0 +1,8 @@
+# Exclude large original video files from Vercel deployment
+public/content/gallery/*.mp4
+public/content/gallery/*.mov
+public/content/gallery/*.avi
+public/content/gallery/*.webm
+
+# Keep compressed videos
+!public/content/gallery/compressed/*.mp4

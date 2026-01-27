@@ -31,3 +31,4 @@ public/content/gallery/*.webm
 
 # Allow compressed videos and thumbnails (small enough for git)
 !public/content/gallery/compressed/*.mp4
+.vercel
