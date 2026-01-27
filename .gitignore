@@ -23,13 +23,11 @@ dist-ssr
 *.sln
 *.sw?
 
-# Video files and thumbnails
+# Large video files (exclude originals, too big for GitHub)
 public/content/gallery/*.mp4
 public/content/gallery/*.mov
 public/content/gallery/*.avi
 public/content/gallery/*.webm
-public/content/gallery/*-thumb.jpg
-public/content/gallery/*-thumb.png
 
-# Allow compressed videos (small enough for git)
+# Allow compressed videos and thumbnails (small enough for git)
 !public/content/gallery/compressed/*.mp4
